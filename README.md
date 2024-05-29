@@ -4,7 +4,7 @@ This repository contains a Python trading bot that implements various trading st
 
 ## Demo
 
-A demo of the TradeLocker Bot is hosted on [Render](https://tradelocker-bot.onrender.com/). You can access the demo and see the bot in action.
+A [demo](https://tradelocker-bot.onrender.com/) of the TradeLocker Bot is hosted on [Render](https://render.com/). You can access the demo and see the bot in action.
 
 ## Usage
 
@@ -31,7 +31,7 @@ To run the TradeLocker Bot locally, follow these steps:
 
 ## TradeLocker Dashboard
 
-You can access the TradeLocker dashboard of the demo account on [OspreyFX.com](https://demo.tradelocker.com) using the following credentials to check the orders you're creating:
+You can access the [TradeLocker dashboard](https://demo.tradelocker.com) of the demo account on [OspreyFX](https://ospreyfx.com/) using the following credentials to check the orders you're creating:
 
 - Email: shazagheiba@gmail.com
 - Account Number: 641131
