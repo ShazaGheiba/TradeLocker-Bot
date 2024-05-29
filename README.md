@@ -1,6 +1,6 @@
 # TradeLocker Bot
 
-This repository contains a Python trading bot that implements various trading strategies using the TradeLocker API. The bot can be run locally using Docker Compose.
+This repository contains a Python trading bot that implements simple buy/sell actions and various trading strategies using the TradeLocker API. The bot can be run locally using Docker Compose.
 
 ## Demo
 
