@@ -9,6 +9,7 @@ WORKDIR /app
 COPY trade_bot.py /app
 COPY requirements.txt /app
 RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install tradelocker
 
 # Combined image
 FROM php:7.4-cli
@@ -25,8 +26,9 @@ COPY --from=python-app /app /app
 
 # Ensure the trading bot dependencies are installed
 RUN pip3 install --no-cache-dir -r /app/requirements.txt
+RUN pip3 install tradelocker
 
 EXPOSE 8000
 
 # Start PHP built-in server and the trading bot
-CMD ["sh", "-c", "php -S 0.0.0.0:8000 & python3 /app/trade_bot.py"]
+CMD ["sh", "-c", "php -S 0.0.0.0:8000 -t /var/www/html & python3 /app/trade_bot.py"]
