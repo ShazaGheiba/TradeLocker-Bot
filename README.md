@@ -38,6 +38,26 @@ You can access the [TradeLocker dashboard](https://demo.tradelocker.com) of the 
 - Account Password: $FNRqxH8
 - Server: OSP-DEMO
 
+## Unit Tests
+
+Unit tests are provided to ensure the correctness of the trading strategies. To run the tests:
+
+1. Make sure you are in the project directory.
+2. Run the following command to execute the tests:
+
+    ```bash
+    python -m unittest discover
+    ```
+
+### Test Cases
+
+The unit tests cover the following strategies:
+
+- **Moving Average Crossover Strategy**
+- **Bollinger Bands Strategy**
+- **Mean Reversion Strategy**
+- **Breakout Strategy**
+
 ## Trading Strategies
 
 The TradeLocker Bot implements the following trading strategies:
@@ -51,5 +71,3 @@ The TradeLocker Bot implements the following trading strategies:
 - **Breakout Strategy**: This strategy aims to capitalize on the price breaking out of a defined range or level of support/resistance. It involves identifying consolidation periods and taking positions when the price breaks above or below the range.
 
 For a detailed explanation of each strategy implementation, refer to the comments in the `trade_bot.py` file.
-
----
